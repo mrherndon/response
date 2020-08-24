@@ -1,5 +1,5 @@
 {
-    "name": "star/response",
+    "name": "mrherndon/response",
     "description": "simple server return class",
     "type": "library",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"star\\response\\": "src/"}
+        "psr-4": {"mrherndon\\response\\": "src/"}
     },
     "require": {}
 }

@@ -1,5 +1,5 @@
 <?php
-namespace star\response;
+namespace mrherndon\response;
 
 class response {
 	public $message = 'Post Successful';
