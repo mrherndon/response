@@ -7,8 +7,8 @@ class response {
 	public $error = false;
 	public $errorMessage = '';
 
-	public function __construct(object $object){
-        $this->object = !empty($object) ? $object : new \stdClass();
+	public function __construct(object $object = null){
+        $this->object = is_null($object) ? new \stdClass() : $object;
 	}
 	
 	public function return(string $message = '', string $error = '') {
